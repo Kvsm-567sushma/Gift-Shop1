@@ -1,7 +1,8 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 
 const AdminLeftBar = () => {
+  const Navigate = useNavigate()
   const Linksdata = [
     {
       title: 'Dashboard',
@@ -14,13 +15,25 @@ const AdminLeftBar = () => {
     {
       title: 'Orders',
       path: '/admin/orders'
+    },
+    {
+      title: 'Users',
+      path: '/admin/users'
+    },
+    {
+      title: 'Settings',
+      path: '/admin/settings'
     }
   ]
+  const handleLogout = () => {
+    localStorage.removeItem('token')
+    Navigate('/')
+  }
   return (
     <div className='w-full h-screen shadow-purple-400 shadow-md flex justify-center items-center'>
       <div className='h-full w-full flex flex-col'>
         <div className='h-[10%] w-full text-purple-500 flex justify-center font-bold text-2xl items-center'>
-          Categories
+          MaX Store
         </div>
         <div className='h-[80%] w-full flex flex-col items-center '>
           {Linksdata.map((link, index) => (
@@ -31,7 +44,7 @@ const AdminLeftBar = () => {
           }
         </div>
         <div className='h-[10%] w-full flex items-end'>
-          <div className=' px-8 bg-red-500 w-full h-2/3 text-white flex justify-start font-bold items-center'>
+          <div className=' px-8 bg-red-500 w-full h-2/3 text-white flex justify-start font-bold items-center cursor-pointer' onClick={handleLogout}>
             Logout
           </div>
         </div>
