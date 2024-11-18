@@ -149,7 +149,7 @@ const AdminUsers = () => {
   return (
     <div className='w-full flex flex-col justify-start items-start'>
       <div className='w-full flex flex-row justify-between items-center my-4 shadow-md rounded-md p-1 border'>
-        <AdminPageHeader title='Users' />
+        <AdminPageHeader title='⚡𝐔𝐒𝐄𝐑𝐒⚡' />
         <button className='w-10 h-10 font-bold flex justify-center items-center border-2 border-green-500 rounded-md
          text-green-500 shadow-md hover:text-white hover:bg-green-500 hover:shadow-md
           hover:shadow-green-400'
@@ -158,14 +158,14 @@ const AdminUsers = () => {
         </button>
       </div>
       <table className='w-full h-full border-collapse border shadow-lg rounded-md'>
-        <thead className='shadow-md font-bold text-purple-500 text-left rounded-md'>
+        <thead className='shadow-md font-bold text-green-500 text-left rounded-md'>
           <tr>
-            <th className='p-6'>UID</th>
-            <th className='p-6'>Name</th>
-            <th className='p-6'>Role</th>
-            <th className='p-6'>Email</th>
-            <th className='p-6'>Phone</th>
-            <th className='p-6'>Actions</th>
+            <th className='p-6'>𝐔𝐈𝐃</th>
+            <th className='p-6'>𝐍𝐀𝐌𝐄</th>
+            <th className='p-6'>𝐑𝐎𝐋𝐄</th>
+            <th className='p-6'>𝐄𝐌𝐀𝐈𝐋</th>
+            <th className='p-6'>𝐏𝐇𝐎𝐍𝐄</th>
+            <th className='p-6'>𝐀𝐂𝐓𝐈𝐎𝐍𝐒</th>
           </tr>
         </thead>
         <tbody>

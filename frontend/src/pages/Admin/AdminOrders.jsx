@@ -44,7 +44,7 @@ const AdminOrders = () => {
     if (loading) {
         return (
             <>
-                <div className='w-screen h-[90vh] flex flex-col justify-center items-center'>
+                <div className='w-screen h-[90vh] flex flex-col justify-center items-center  '>
                     <Loader2 className='text-purple-500 h-14 w-14 animate-spin' />
                 </div>
             </>
@@ -63,18 +63,18 @@ const AdminOrders = () => {
         )
     }
     return (
-        <div className='w-full flex flex-col justify-start items-start'>
+        <div className='w-full flex flex-col justify-start items-start  bg-[url("https://img.freepik.com/premium-photo/christmas-white-background-gold_514781-1785.jpg")] bg-no-repeat bg-cover bg-center  h-full '>
             <div className='w-full flex flex-row justify-between items-center my-4 shadow-md rounded-md p-1 border'>
-                <AdminPageHeader title='Orders' />
+                <AdminPageHeader title='⚡𝐎𝐑𝐃𝐄𝐑𝐒⚡' />
             </div>
             <table className='w-full h-full border-collapse border shadow-lg rounded-md'>
-                <thead className='shadow-md font-bold text-purple-500 text-left rounded-md'>
+                <thead className='shadow-md font-bold text-green-500 text-left rounded-md'>
                     <tr>
-                        <th className='p-6'>UID</th>
-                        <th className='p-6'>PID</th>
-                        <th className='p-6'>Phone</th>
-                        <th className='p-6'>Total</th>
-                        <th className='p-6'>Actions</th>
+                        <th className='p-6'>𝐔𝐈𝐃</th>
+                        <th className='p-6'>𝐏𝐈𝐃</th>
+                        <th className='p-6'>𝐏𝐇𝐎𝐍𝐄</th>
+                        <th className='p-6'>𝐓𝐎𝐓𝐀𝐋</th>
+                        <th className='p-6'>𝐀𝐂𝐓𝐈𝐎𝐍𝐒</th>
                     </tr>
                 </thead>
                 <tbody>

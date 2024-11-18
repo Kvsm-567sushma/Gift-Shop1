@@ -150,7 +150,7 @@ const AdminProducts = () => {
   return (
     <div className='w-full flex flex-col justify-start items-start'>
       <div className='w-full flex flex-row justify-between items-center my-4 shadow-md rounded-md p-1 border'>
-        <AdminPageHeader title='Products' />
+        <AdminPageHeader title='⚡𝐏𝐑𝐎𝐃𝐔𝐂𝐓𝐒⚡' />
         <button className='w-10 h-10 font-bold flex justify-center items-center border-2 border-green-500 rounded-md
          text-green-500 shadow-md hover:text-white hover:bg-green-500 hover:shadow-md
           hover:shadow-green-400'
@@ -159,16 +159,16 @@ const AdminProducts = () => {
         </button>
       </div>
       <table className='w-full h-full border-collapse border shadow-lg rounded-md'>
-        <thead className='shadow-md font-bold text-purple-500 text-left rounded-md'>
+        <thead className='shadow-md font-bold text-green-500 text-left rounded-md'>
           <tr>
           
-            <th className='p-6'>PID</th>
-            <th className='p-6'>Image</th>
-            <th className='p-6'>Name</th>
+            <th className='p-6'>𝐏𝐈𝐃</th>
+            <th className='p-6'>𝐈𝐌𝐀𝐆𝐄</th>
+            <th className='p-6'>𝐍𝐀𝐌𝐄</th>
            
-            <th className='p-6'>Price</th>
+            <th className='p-6'>𝐏𝐑𝐈𝐂𝐄</th>
           
-            <th className='p-6'>Actions</th>
+            <th className='p-6'>𝐀𝐂𝐓𝐈𝐎𝐍𝐒</th>
             
           </tr>
         </thead>

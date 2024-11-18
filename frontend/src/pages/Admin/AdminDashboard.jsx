@@ -42,7 +42,7 @@ const AdminDashboard = () => {
     )
   }
   return (
-    <div className='w-full min-h-[80vh] flex justify-center items-center bg-[url("https://cdn.prestahero.com/236-large_default/gift-shop.webp")] bg-no-repeat bg-cover bg-center  h-full '>  
+    <div className='w-full min-h-[80vh] flex justify-center items-center bg-[url("https://img.freepik.com/free-psd/winter-sales-3d-podium-background_23-2150951627.jpg")] bg-no-repeat bg-cover bg-center  h-full '>  
 
       <AdminDashboardHomeCards products={products} orders={orders} users={users} />
     </div>

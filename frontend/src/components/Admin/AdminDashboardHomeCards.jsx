@@ -1,4 +1,4 @@
-import { ChartBar, DollarSign, Package2, ShoppingCart, User2, Users } from 'lucide-react'
+import { ChartBar, DollarSign, Gift,  ShoppingCart, User2, Users } from 'lucide-react'
 import React from 'react'
 
 const AdminDashboardHomeCards = ({ products, orders, users }) => {
@@ -21,8 +21,8 @@ const AdminDashboardHomeCards = ({ products, orders, users }) => {
                     <ChartBar className="group-hover:opacity-100 absolute right-[10%] top-[50%] translate-y-[-50%] text-white transition group-hover:scale-110 duration-300" />
                 </div>
             </div> */}
-            <div className=' w-full flex flex-row justify-center items-center gap-6  '>
-                <div className='w-1/4 h-[10vh] flex flex-row justify-center items-center px-2 shadow-md rounded-md hover:shadow-purple-200 hover:text-purple-500'>
+            <div className=' w-full flex flex-row justify-center items-center gap-6'>
+                <div className='w-1/4 h-[10vh] flex flex-row justify-center items-center px-2 shadow-lg rounded-md hover:shadow-purple-200 hover:text-pink-500 bg-pink-300'>
                     <div className='w-[70%] h-full flex flex-col justify-center items-start px-4'>
                         <p className='text-3xl font-bold'>
                             {users}
@@ -35,7 +35,7 @@ const AdminDashboardHomeCards = ({ products, orders, users }) => {
                         <Users className='w-9 h-9' />
                     </div>
                 </div>
-                <div className='w-1/4 h-[10vh] flex flex-row justify-center items-center px-2 shadow-md rounded-md hover:shadow-purple-200 hover:text-purple-500'>
+                <div className='w-1/4 h-[10vh] flex flex-row justify-center items-center px-2 shadow-lg rounded-md hover:shadow-purple-200 hover:text-pink-500 bg-pink-300'>
                     <div className='w-[70%] h-full flex flex-col justify-center items-start px-4'>
                         <p className='text-3xl font-bold'>
                             {products}
@@ -45,10 +45,10 @@ const AdminDashboardHomeCards = ({ products, orders, users }) => {
                         </p>
                     </div>
                     <div className='w-[30%] h-full flex justify-center items-center'>
-                        <Package2 className='w-9 h-9' />
+                        <Gift className='w-9 h-9' />
                     </div>
                 </div>
-                <div className='w-1/4 h-[10vh] flex flex-row justify-center items-center px-2 shadow-md rounded-md hover:shadow-purple-200 hover:text-purple-500'>
+                <div className='w-1/4 h-[10vh] flex flex-row justify-center items-center px-2 shadow-lg rounded-md hover:shadow-purple-200 hover:text-pink-500 bg-pink-300'>
                     <div className='w-[70%] h-full flex flex-col justify-center items-start px-4'>
                         <p className='text-3xl font-bold'>
                             {orders}
