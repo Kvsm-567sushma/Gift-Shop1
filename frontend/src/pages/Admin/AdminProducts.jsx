@@ -161,11 +161,15 @@ const AdminProducts = () => {
       <table className='w-full h-full border-collapse border shadow-lg rounded-md'>
         <thead className='shadow-md font-bold text-purple-500 text-left rounded-md'>
           <tr>
+          
             <th className='p-6'>PID</th>
             <th className='p-6'>Image</th>
-            <th className='p-6'>Title</th>
+            <th className='p-6'>Name</th>
+           
             <th className='p-6'>Price</th>
+          
             <th className='p-6'>Actions</th>
+            
           </tr>
         </thead>
         <tbody>

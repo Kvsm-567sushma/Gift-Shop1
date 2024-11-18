@@ -35,14 +35,15 @@ const AdminDashboard = () => {
   if (loading) {
     return (
       <>
-        <div className='w-screen h-[90vh] flex flex-col justify-center items-center'>
+        <div className='w-screen h-[90vh] flex flex-col justify-center items-center '>
           <Loader2 className='text-purple-500 h-14 w-14 animate-spin' />
         </div>
       </>
     )
   }
   return (
-    <div className='w-full min-h-[80vh] flex justify-center items-center'>
+    <div className='w-full min-h-[80vh] flex justify-center items-center bg-[url("https://cdn.prestahero.com/236-large_default/gift-shop.webp")] bg-no-repeat bg-cover bg-center  h-full '>  
+
       <AdminDashboardHomeCards products={products} orders={orders} users={users} />
     </div>
   )

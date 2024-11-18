@@ -15,16 +15,20 @@ const Navbar = () => {
     const navigate = useNavigate()
     const Linksdata = [
         {
-            title: 'Home',
+            title: '𝐇𝐨𝐦𝐞',
             path: '/'
         },
         {
-            title: 'Products',
+            title: '𝐏𝐫𝐨𝐝𝐮𝐜𝐭𝐬',
             path: '/products'
         },
         {
-            title: 'Contact',
+            title: '𝐂𝐨𝐧𝐭𝐚𝐜𝐭',
             path: '/contact'
+        },
+        {
+            title: '𝐀𝐛𝐨𝐮𝐭 𝐔𝐬',
+            path: '/about'
         }
     ]
     const handleLogin = async (e) => {
@@ -111,20 +115,20 @@ const Navbar = () => {
     }
     return (
         <>
-            <div className='w-screen h-14 shadow-purple-500 shadow-md flex flex-row justify-center items-center'>
-                <div className='w-[40%] flex justify-start items-center font-bold text-2xl text-purple-500'>
-                    Gift Haven
+            <div className='w-screen h-14 shadow-pink-500 shadow-md flex  flex-row justify-center items-center'>
+                <div className='w-[40%] flex justify-start items-center font-bold text-4xl  text-pink-400'>
+                ༺𝐆𝐢𝐟𝐭 𝐇𝐚𝐯𝐞𝐧༻
                 </div>
-                <div className='w-[40%] h-full flex justify-end items-center '>
+                <div className='w-[40%] h-full flex justify-end  text-black items-center '>
                     <div className='w-full h-full flex flex-row justify-end items-center gap-8 font-bold'>
                         {Linksdata.map((link, index) => (
-                            <NavLink to={link.path} key={index} className='h-[65%] w-20 hover:bg-purple-500/90 hover:text-white flex justify-center items-center rounded-sm'>
+                            <NavLink to={link.path} key={index} className='h-[65%] w-20 hover:bg-pink-300 hover:text-white flex justify-center items-center rounded-sm'>
                                 {link.title}
                             </NavLink>
                         ))
                         }
                     </div>
-                    <button className="h-9 w-10 flex justify-center items-center border-2 border-black rounded-full hover:border-purple-500 hover:text-purple-500 ml-4 shadow-md" onClick={() => { setShowLogin(!showLogin) }}>
+                    <button className="h-9 w-10 flex justify-center items-center border-2 border-black rounded-ful hover:border-pink-500 hover:text-pink-500 ml-4 shadow-md" onClick={() => { setShowLogin(!showLogin) }}>
                         <User className="h-6 w-6" />
                     </button>
                 </div>

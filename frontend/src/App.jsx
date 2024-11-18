@@ -11,6 +11,7 @@ import AdminOrders from './pages/Admin/AdminOrders'
 import AdminUsers from './pages/Admin/AdminUsers'
 //import AdminSettings from './pages/Admin/AdminSettings'
 import NotFound from './pages/NotFound'
+import About from './pages/About'
 // import {} from 'react'
 const App = () => {
     return (
@@ -21,6 +22,7 @@ const App = () => {
                         <Route path='/' element={<Home />} />
                         <Route path='/products' element={<Products />} />
                         <Route path='/contact' element={<Contact />} />
+                        <Route path='/about' element={<About />} />
                          <Route path='/temp' element={<TwClasses />} /> 
                     </Route>
                     <Route element={<AdminLayout />}>
