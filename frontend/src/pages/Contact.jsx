@@ -12,15 +12,15 @@ const Contact = () => {
           <div className='h-[90%] w-1/2 flex flex-col justify-center items-center gap-4 '>
             <div className='h-[31%] w-[70%] border rounded-md flex flex-col justify-center items-center text-lg font-semibold gap-4 shadow-md  hover:bg-pink-200 hover:text-black '>
               <Mail className='h-8 w-8 text-pink-600' />
-              <h1>gifthaven@gamil.com</h1>
+              <h1>gifthaven@gmail.com</h1>
             </div>
             <div className='h-[31%] w-[70%] border rounded-md flex flex-col justify-center items-center text-lg font-semibold gap-4 shadow-md  hover:bg-pink-200 hover:text-black'>
               <Phone className='h-8 w-8 text-pink-600' />
-              <h1>9876547621</h1>
+              <h1>+91 9876547621</h1>
             </div>
             <div className='h-[31%] w-[70%] border rounded-md flex flex-col justify-center items-center text-lg font-semibold gap-4 shadow-md  hover:bg-pink-200 hover:text-black'>
               <Pin className='h-8 w-8 text-pink-600' />
-              <h1 className='text-center'>jntuh,kondagattu <br />jagtial</h1>
+              <h1 className='text-center'>JNTUH UCEJ, Kondagattu <br />Jagtial</h1>
             </div>
           </div>
           <div className='h-[95%] w-1/2 flex flex-col justify-center items-center'>
